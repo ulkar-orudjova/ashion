@@ -1,0 +1,63 @@
+
+.trend{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.section-title{
+    margin-bottom: 45px;
+    h4{
+        font-size: 19px;
+        color: #111;
+        font-weight: 600;
+        text-transform: uppercase;
+        position: relative;
+        display: inline-block;
+    }   
+}
+
+.section-title h4::after{
+    bottom: -6px;
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 60px;
+    background: #ca1515;
+    content: "";
+}
+
+.trend_item {
+    overflow: hidden;
+    margin-bottom: 35px;
+
+    .trend_item_pic{
+        float: left;
+        margin-right: 25px;
+    }
+
+    .trend_item_text{
+        overflow: hidden;
+        h6{
+            font-size: 14px;
+            color: #111;
+        }
+        .rating{
+            line-height: 18px;
+            margin-bottom: 5px;
+
+            i{
+                font-size: 10px;
+                color: #e3c01c;
+            }
+        }
+        .product_price{
+            color: #111;
+            font-weight: 600;
+            font-size: 14px;
+        }
+    }
+}
+
+img{
+    max-width: 100%;
+}

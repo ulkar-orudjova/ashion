@@ -1,0 +1,30 @@
+.services{
+    .services_item{
+        padding-left: 65px;
+        position: relative;
+        margin-bottom: 20px;
+    
+        i{
+            font-size: 38px;
+            color: #ca1515;
+            position: absolute;
+            left: 0;
+            top: -7px;
+        }
+
+        h6{
+            color: #111;
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        p{
+            font-size: 13px;
+            color: #666;
+            font-weight: 400;
+            line-height: 24px;
+            margin: 0 0 15px 0;
+        }
+    }
+}

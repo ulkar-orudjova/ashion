@@ -1,0 +1,21 @@
+
+.instagram_item{
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+    justify-content: center;
+    -webkit-box-pack: center;
+    // position: relative;
+    img{
+        width: 100vw;
+        height: 225px;
+        min-height: 250px;
+    }
+   
+}
+
+.set-bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
